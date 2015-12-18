@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en" ng-app="myApp"> <!-- a directive called ng-app -->
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Demo</title>
+    <script src="lib/angular/angular.min.js"></script>
+</head>
+<body>
+    
+    
+     <!-- a directive called ng-model we want it to look for name -->
+     <!-- the input field is tied to the template -->
+     <!-- two way data binding -->
+    <input type="text" ng-model="name">
+    <h2>Welcome {{name}}</h2>
+</body>
+</html>
